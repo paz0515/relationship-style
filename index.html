@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+大眾情人｜你的愛情安全感類型測驗
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<section class="hero">
+
+<div class="overlay">
+
+<img src="logo.jpg" class="avatar">
+
+<h1>
+你在愛情中的<br>
+安全感類型
+</h1>
+
+<p>
+3分鐘測出<br>
+你如何感受愛、表達愛，以及在關係中真正需要什麼。
+</p>
+
+
+<button onclick="startQuiz()">
+開始測驗
+</button>
+
+
+</div>
+
+</section>
+
+
+
+<section id="quiz" class="hide">
+
+
+<div class="card">
+
+
+<div id="welcome">
+
+<h2>
+開始之前
+</h2>
+
+<p>
+請輸入你的名字
+</p>
+
+
+<input 
+id="username"
+placeholder="例如：小雨"
+>
+
+
+<button onclick="begin()">
+開始測驗
+</button>
+
+
+</div>
+
+
+
+<div id="questionArea" class="hide">
+
+
+<div class="progress">
+
+<div id="progressBar"></div>
+
+</div>
+
+
+<p id="progressText">
+第 1 / 15 題
+</p>
+
+
+<h2 id="question"></h2>
+
+
+<div id="answers"></div>
+
+
+<div class="buttons">
+
+<button onclick="previousQuestion()">
+上一題
+</button>
+
+
+<button onclick="nextQuestion()">
+下一題
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+<div id="result" class="hide">
+
+<h2 id="resultTitle"></h2>
+
+<p id="resultText"></p>
+
+
+<a 
+href="https://www.instagram.com/268left/"
+target="_blank"
+class="ig">
+
+免費諮詢｜前往 IG
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
